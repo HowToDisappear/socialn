@@ -1,8 +1,13 @@
 # socialn
-Simple social network REST API
+Simple REST API that allows to:
+- singup/ signin users
+- create/ modify/ delete posts
+- like/ unlike posts
+- view listings of users/ posts
+- view likes analytics aggregated by day 
 
 ### Dependencies
-Django
+django
 
 djangorestframework
 
