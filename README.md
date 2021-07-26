@@ -24,11 +24,11 @@ http http://127.0.0.1:8000/api/users/3
 ```
 To signup a new user:
 ```
-http --json POST http://127.0.0.1:8000/api/users/signup username=“jane" password=“jane098123"
+http --json POST http://127.0.0.1:8000/api/users/signup username="jane" password="jane098123"
 ```
 For authentication we use Simple JWT scheme. To obtain token:
 ```
-http --json POST http://127.0.0.1:8000/api/users/signin/token/obtain username="jane" password=“jane098123”
+http --json POST http://127.0.0.1:8000/api/users/signin/token/obtain username="jane" password="jane098123"
 ```
 Then to make a new post we provide token and post details:
 ```
